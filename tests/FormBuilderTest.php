@@ -906,7 +906,7 @@ class FormBuilderTest extends PHPUnit\Framework\TestCase
 class FormBuilderModelStub
 {
     protected $data;
-
+ $request = Request::create($data = [])
     public function __construct(array $data = [])
     {
         foreach ($data as $key => $val) {
